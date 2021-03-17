@@ -1,3 +1,4 @@
+#if __has_include(<Flutter/Flutter.h>)
 #import "MapboxPlugin.h"
 #if __has_include(<MapboxFlutter/MapboxFlutter-Swift.h>)
 #import <MapboxFlutter/MapboxFlutter-Swift.h>
@@ -13,3 +14,4 @@
   [MapboxFlutterPlugin registerWithRegistrar:registrar];
 }
 @end
+#endif
