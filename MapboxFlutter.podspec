@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MapboxFlutter'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Flutter common package for Mapbox.'
   s.description      = <<-DESC
   Flutter common package for Mapbox so it can be reused
