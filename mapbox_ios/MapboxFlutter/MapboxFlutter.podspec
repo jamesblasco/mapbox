@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/jamesblasco/mapbox'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Jaime blasco' => 'git@jaimeblasco.com' }
-  s.source           = { :git => 'https://github.com/jamesblasco/mapbox/tree/main/mapbox_ios/MapboxFlutter' }
-  s.source_files = 'Classes/**/*'
+  s.source           = { :git => 'https://github.com/jamesblasco/mapbox/' }
+  s.source_files = 'mapbox_ios/FlutterMapbox/Classes/**/*'
   s.dependency 'Flutter'
   s.dependency 'MapboxMaps' , '10.0.0-beta.15'
   s.platform = :ios, '11.0'
