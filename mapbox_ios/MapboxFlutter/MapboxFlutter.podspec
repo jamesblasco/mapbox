@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   Flutter common package for Mapbox
                        DESC
   s.homepage         = 'https://github.com/jamesblasco/mapbox'
-  s.license          = { :file => '../LICENSE' }
+  s.license          = { :file => 'mapbox_ios/LICENSE' }
   s.author           = { 'Jaime blasco' => 'git@jaimeblasco.com' }
   s.source           = { :git => 'https://github.com/jamesblasco/mapbox/' }
   s.source_files = 'mapbox_ios/FlutterMapbox/Classes/**/*'
